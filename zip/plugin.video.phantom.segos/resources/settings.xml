@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Logowanie">
+        <setting type="sep"/>
+        <setting id="login" type="bool" label="Automatyczne logowanie w serwisie" default="false" enable=/>
+        <setting type="sep"/>
+        <setting id="s_user"  type="text" label="Użytkownik" default="" />
+        <setting id="s_pass"  type="text" label="Hasło" option="hidden"  default="" />
+    </category>
+</settings>
+
+
