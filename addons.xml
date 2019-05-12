@@ -3602,41 +3602,27 @@ Róbta co chceta! :)
 
 
 
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.03.14.1" provider-name="-">
-        <requires>
-                <import addon="xbmc.python" version="2.1.0" />
-                <import addon="script.module.ptw" />
-                <import addon="script.module.requests"/>
-                <import addon="script.module.metahandler" />
-                <import addon="script.module.beautifulsoup4"/>
-                <import addon="plugin.video.youtube" optional="true" />
-                <import addon="script.module.resolveurl" />
-                <import addon="script.fanfilm.media" />
-                <import addon="script.fanfilm.metadata" />
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="default.py">
-                <provides>video</provides>
-        </extension>
-        <extension point="xbmc.service" library="service.py" start="startup" />
-        <extension point="xbmc.addon.metadata">
-                <summary lang="pl">FanFilm</summary>
-		<description lang="pl">Plugin z filmami i serialami. Przesyłaj strumieniowo filmy, programy, filmy dokumentalne i krótkie filmy z różnych źródeł strumieniowego przesyłania wideo.</description>
-		<disclaimer lang="pl">Wszelkie treści multimedialne są własnością serwisów trzecich. Wtyczka agreguje tylko treści znalezione w internecie. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
-                <summary lang="en">FanFilm</summary>
-                <description lang="en">Movie and TVShows plugin</description>
-                <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-                </disclaimer>
-                <platform>all</platform>
-			<assets>
-			<icon>icon.png</icon> <!-- Do not change file name. Required by older Kodi versions. -->
-			<fanart>fanart.jpg</fanart> <!-- Do not change file name. Required by older Kodi versions. -->
-			<screenshot>screenshots/screenshot01.jpg</screenshot>
-			<screenshot>screenshots/screenshot02.jpg</screenshot>
-			<screenshot>screenshots/screenshot03.jpg</screenshot>
-			<screenshot>screenshots/screenshot04.jpg</screenshot>
-			<screenshot>screenshots/screenshot05.jpg</screenshot>
-			</assets>
-        </extension>
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.04.28.1" provider-name="-">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.ptw"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.metahandler"/>
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="plugin.video.youtube" optional="true"/>
+        <import addon="script.module.resolveurl"/>
+        <import addon="script.fanfilm.media" version="2019.01.26"/>
+        <import addon="script.fanfilm.metadata"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pl">FanFilm</summary>
+        <description lang="pl">Plugin z filmami i serialami</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 
@@ -3732,7 +3718,7 @@ provider-name="SPA">
 
 
 
-<addon id="script.fanfilm.media" version="2019.01.26.0" name="FanFilm Themepak" provider-name="-" >
+<addon id="script.fanfilm.media" version="2019.03.30.0" name="FanFilm Themepak" provider-name="-" >
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -3810,12 +3796,13 @@ provider-name="SPA">
 
 
 
-
-<addon id="script.module.ptw" name="PTW Module" version="2019.01.20.0" provider-name="PTW">
+<addon id="script.module.ptw" name="PTW Module" version="2019.04.28.1" provider-name="PTW">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
 		<import addon="script.module.requests"/>
+		<import addon="script.module.resolveurl"/>
+        <import addon="script.module.pyxbmct" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
