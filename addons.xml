@@ -4435,7 +4435,7 @@ provider-name="">
 
 
 <addon id="plugin.video.strefadb"
-version="2018.12.27.0"
+version="2019.04.28.0"
 name="StrefaDB"
 provider-name="-">
 <requires>
@@ -4458,8 +4458,6 @@ provider-name="-">
   <news>db heroes</news>
 </extension>
 </addon>
-
-
 
 
 
@@ -4675,14 +4673,13 @@ provider-name="-">
 </addon>
 
 
-
-
-<addon id="plugin.video.tbseven" name="tb7.pl Player" version="0.0.5" provider-name="c0d34fun">
+<addon id="plugin.video.tbseven" name="tb7.pl Player" version="0.0.6" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
         <import addon="script.module.parsedom" version="2.5.2"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+        <import addon="script.module.ptw" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -4706,6 +4703,8 @@ provider-name="-">
         </assets>
     </extension>
 </addon>
+
+
 
 
 
