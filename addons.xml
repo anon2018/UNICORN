@@ -751,27 +751,75 @@ Dostęp do serwisu bez polskiego IP
   </extension>
 </addon>
 
+<addon id="script.module.streamlink.crypto" name="Streamlink Crypto" version="1.5.2" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python implementation of the cryptographic libraries required by Streamlink</summary>
+    <source>https://github.com/Twilight0/script.module.streamlink.crypto</source>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>	
 
-
-
-
-<addon id="script.module.simplejson" name="simplejson" version="3.4.1" provider-name="Bob Ippolito">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
 	
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<language></language>
-		<summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
-		<description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
-		<disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
-		<license>MIT License, Academic Free License v. 2.1</license>
-		<website>https://pypi.python.org/pypi/simplejson/</website>
-		<source>https://pypi.python.org/pypi/simplejson/</source>
-	</extension>
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2019.05.08" provider-name="Streamlink Devs, Twilight0">
+  <requires>
+      <import addon="xbmc.python" version="2.24.0"/>
+      <import addon="script.module.requests" version="2.12.4"/>
+      <import addon="script.module.futures" version="2.2.0"/>
+      <import addon="script.module.streamlink.crypto" version="1.5.2"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+      <summary>Streamlink Library</summary>
+      <description>Streamlink Library for Kodi. Known issue: Does not work on Xbox, when trying to import something from ctypes module.</description>
+      <platform>all</platform>
+      <license>Simplified BSD</license>
+      <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
+      <language>en</language>
+      <assets>
+          <icon>icon.png</icon>
+      </assets>
+      <news>+2019.05.08
+- Added vimeo plugin
+
++2019.05.03
+- Bumped to upstream commit c8ed1daff14ac03195870238b9b900c1109dd5c1
+- Include PR #2441 from upstream
+- Add exception for ctypes on namedpipe for XBOX (MemoryError). So its a known issue that streamlink does not work on this platform</news>
+  </extension>
+</addon>	
+	
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.4.2" 
+       provider-name="Bob Ippolito">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/
+!! do NOT use Gaia's fake 3.4.1 version;
+-> includes Cryptocurrency-mining malware:
+=> 'script.module.python.requests'</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.python.org/pypi/simplejson/</website>
+    <source>https://pypi.python.org/pypi/simplejson/</source>
+  </extension>
 </addon>
+
+
+
 
 
 
@@ -1483,7 +1531,7 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
 
 <addon id="script.module.t0mm0.common" 
 	     name="t0mm0's common stuff" 
-	     version="2.1.1" 
+	     version="2.1.1.01" 
 	     provider-name="t0mm0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1591,10 +1639,11 @@ v5.2.14 (2017-01-23)
 
 
 
-<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
+
+<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.common.plugin.cache" version="2.5.0" />
+    
     <import addon="script.module.parsedom" version="2.5.1" />
   </requires>
   <extension library="default.py" point="xbmc.service" />
@@ -1604,7 +1653,6 @@ v5.2.14 (2017-01-23)
   </extension>
   <extension library="lib" point="xbmc.python.module" />
 </addon>
-
 
 
 
@@ -3682,7 +3730,25 @@ Róbta co chceta! :)
 
 
 
+<addon id="script.module.routing" name="Plugin routing" version="0.2.1" provider-name="takoi">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Routing module for plugins</summary>
+        <description lang="en">Library for building and parsing plugin URLs.
 
+Documentation: https://github.com/tamland/kodi-plugin-routing</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <platform>all</platform>
+        <source>https://github.com/tamland/kodi-plugin-routing</source>
+    </extension>
+</addon>
+	
+	
+	
+	
 <addon id="script.module.resolveurl" name="ResolveURL" version="6.4.50" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
