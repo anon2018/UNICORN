@@ -1638,11 +1638,33 @@ v5.2.14 (2017-01-23)
 
 
 
+<addon id="script.module.arrow"
+       name="arrow"
+       version="0.10.0"
+       provider-name="crsmithdev, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.dateutil" version="2.4.2"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Arrow: better dates and times for Python</summary>
+    <description>Packed for Kodi from https://github.com/crsmithdev/arrow</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://crsmithdev.com/arrow/</website>
+    <source>https://github.com/Razzeee/script.module.arrow</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
 
 
 <addon id="script.module.addon.common" 
 	     name="Common addon methods" 
-	     version="2.0.0" 
+	     version="2.0.1" 
 	     provider-name="Eldorado (original: t0mm0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1662,7 +1684,6 @@ v5.2.14 (2017-01-23)
     <source></source>  
   </extension>
 </addon>
-
 
 
 
@@ -4462,7 +4483,7 @@ provider-name="-">
 
 
 <addon id="plugin.video.wbijampl"
-version="2018.12.27.0"
+version="2019.04.28.0"
 name="Wbijam.pl"
 provider-name="-">
 <requires>
