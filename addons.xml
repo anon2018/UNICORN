@@ -4128,16 +4128,35 @@ provider-name="SPA">
   </extension>
 </addon>
 
+<addon id="plugin.video.exsite"
+version="2018.12.08.0"
+name="ExSite"
+provider-name="">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.resolveurl" />
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">ExSite plugin wideo</summary>
+  <description lang="en_GB"></description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością ExSite. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
 
 
-
-
-<addon id="plugin.video.espl" name="ELEVEN SPORTS" version="0.0.5" provider-name="c0d34fun, grzechj">
+<addon id="plugin.video.espl" name="ELEVEN SPORTS" version="0.0.6" provider-name="c0d34fun">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
         <import addon="script.module.parsedom" version="2.5.2"/>
-        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -4161,6 +4180,7 @@ provider-name="SPA">
         </assets>
     </extension>
 </addon>
+
 
 
 
@@ -4423,6 +4443,33 @@ provider-name="-">
 		<source>http://sd-xbmc.org/svn/mods-xbmc</source>
 		<email>site@mods-kodi.pl</email>
 	</extension>
+</addon>
+	
+	
+<addon id="plugin.video.animeon"
+version="2019.05.26.0"
+name="Animeon.pl"
+provider-name="-">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.ptw" />
+  <import addon="script.module.resolveurl" />
+  <import addon="script.module.requests"/>
+  <import addon="script.module.future"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Animeon Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z anime</description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością animeon.pl. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>fix</news>
+</extension>
 </addon>
 
 
