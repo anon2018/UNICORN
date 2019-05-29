@@ -797,35 +797,58 @@ Dostęp do serwisu bez polskiego IP
 
 
 
-<addon id="plugin.video.sport365.live" name="Sport365" version="1.0" provider-name="GalAnonim">
+<addon id="plugin.video.sport365.live" name="Sport 365 Live" version="2.4" provider-name="Proximus">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="service.cronxbmc" optional="true"/>
+        <import addon="script.module.requests"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
     </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Sport365</summary>
-    <description lang="en">Sport365</description>
-    <disclaimer lang="en">Wtyczka tworzona na użytek prywatny, autor nie odpowiada za jej nieodpowienie wykorzystywanie oraz rozpowszechnianie! Wszystkie treści multimedialne są własnością strony sport365.live! Kod pochodzi od RamicSPA</disclaimer>
+    <summary lang="en">Sport 365 Live</summary>
+    <description lang="en"></description>
+    <disclaimer lang="en"> Wszystkie treści multimedialne są własnością strony sport365.live!</disclaimer>
     <language></language>
-    <platform>all</platform>
+    <platform></platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <forum></forum>
     <website></website>
     <email></email>
   <assets>
     <icon>icon.png</icon>
-    <fanart>fanart.png</fanart>
+    <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-   Pierwsza wersja :)
   </news>    
   </extension>
 </addon>
 
-
+<addon id="plugin.video.standupy"
+version="2019.05.28.0"
+name="Stand-upy"
+provider-name="-">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.ptw" />
+  <import addon="script.module.resolveurl" />
+  <import addon="script.module.requests"/>
+  <import addon="script.module.future"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Stand-upy Plugin Wideo</summary>
+  <description lang="en_GB">Plugin z anime</description>
+  <disclaimer lang="en_GB">Wszelkie treści multimedialne są własnością Stand-upy.pl. Wtyczka tworzona na potrzeby prywatne.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>fix</news>
+</extension>
+</addon>
 
 
     <addon id="repository.universalscrapers" name="universalscrapers-repository" version="1.0.0" provider-name="universalscrapers">
@@ -1735,13 +1758,14 @@ v5.2.14 (2017-01-23)
 
 
 
-<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="1.8" provider-name="mbebe">
+<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="1.8.3" provider-name="mbebe">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.requests" />
 		<import addon="script.module.parsedom" version="2.5.2"/>
 		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
 		<import addon="script.module.resolveurl" version="5.0.00"/>
+        <import addon="script.module.streamlink.base" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="maintv.py">
 		<provides>video</provides>
@@ -4332,7 +4356,7 @@ provider-name="">
 
 
 <addon id="plugin.video.shinden"
-       version="2019.01.17.0"
+       version="2019.05.24.0"
        name="Shinden"
        provider-name="-">
     <requires>
