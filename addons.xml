@@ -242,7 +242,7 @@ provider-name="-">
 
 
 <addon id="plugin.video.kreskoweczki"
-version="2018.07.17.0"
+version="2019.05.21.0"
 name="Kreskoweczki.pl"
 provider-name="-">
 <requires>
@@ -261,7 +261,6 @@ provider-name="-">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news></news>
 </extension>
 </addon>
 
@@ -4322,11 +4321,32 @@ provider-name="">
     </extension>
 </addon>
 
-
+<addon id="plugin.video.meczreplay" name="MeczReplay" version="0.0.7" provider-name="panee">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" /> 
+		<import addon="script.module.resolveurl"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup4"/>  
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="playvideo.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MeczReplay</summary>
+		<description lang="en">MeczReplay</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>movies,tvshows,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
 
 
 <addon id="plugin.video.kreskowki"
-       version="2019.01.02.0"
+       version="2019.04.28.0"
        name="Kreskowki"
        provider-name="-">
     <requires>
