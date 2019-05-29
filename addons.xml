@@ -1014,19 +1014,15 @@ Dostęp do serwisu bez polskiego IP
 </addon>
 
 
-
-
-
-<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.2.2" provider-name="Vania Rupeni">
+<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.1" provider-name="Vania Rupeni">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.5.0"/>
     <import addon="xbmc.addon" version="13.0.0" />
     <import addon="script.module.requests" version="2.9.1" />
     <import addon="script.module.simplejson" version="3.3.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2"/>
     <import addon="script.module.html5lib" version="0.999.0"/>
-    <import addon="script.module.youtube.dl" version="16.1026.0"/>
-    <import addon="script.module.urlresolver" version="3.0.36" optional="true"/>
+    <import addon="script.extendedinfo" version="5.6.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video audio</provides>
@@ -1039,10 +1035,13 @@ Plugin to watch IPTV free worldwide
 
 f4m Proxy part is fork of f4mProxy by Shani
 Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
+Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
     </description>
     <platform>all</platform>
   </extension>
 </addon>
+
+
 
 
 
@@ -3601,9 +3600,7 @@ Róbta co chceta! :)
 
 
 
-
-
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.04.28.1" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.05.23.1" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.ptw"/>
@@ -3626,6 +3623,26 @@ Róbta co chceta! :)
     </extension>
 </addon>
 
+
+
+<addon id="plugin.video.favourites"
+version="0.0.5"
+name="Video Favourites"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Video Favourites</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
 
 
 
@@ -4249,9 +4266,8 @@ provider-name="">
 
 
 
-
 <addon id="plugin.video.kabarety"
-       version="2019.01.15.0"
+       version="2019.04.14.0"
        name="Kabarety"
        provider-name="-">
 <requires>
@@ -4274,6 +4290,7 @@ provider-name="">
   <news></news>
 </extension>
 </addon>
+
 
 
 
