@@ -4131,6 +4131,29 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 </addon>
 
 
+
+
+
+
+<addon id="plugin.video.favourites"
+version="0.0.5"
+name="Video Favourites"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Video Favourites</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+
 <addon id="plugin.video.fanfilm" name="FanFilm" version="2019.06.01.4" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -4154,29 +4177,6 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         <platform>all</platform>
     </extension>
 </addon>
-
-
-
-<addon id="plugin.video.favourites"
-version="0.0.5"
-name="Video Favourites"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Video Favourites</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en"></disclaimer>
-</extension>
-</addon>
-
-
 
 
 
