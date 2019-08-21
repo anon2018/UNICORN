@@ -1511,22 +1511,6 @@ provider-name="-">
 
 
 
-<addon id="repository.megatron" name="[COLOR purple]Megatron Repo[/COLOR]" version="1.0.2" provider-name="[COLOR purple]Megatron[/COLOR]">
-	<extension point="xbmc.addon.repository" name="[COLOR purple]Megatron Repo[/COLOR]">
-		<info compressed="false">https://raw.githubusercontent.com/superfreakrepos/megatron/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/superfreakrepos/megatron/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/superfreakrepos/megatron/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Transform your TV</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-
 
 ﻿
 <addon id="plugin.video.realdebrid"
@@ -2882,34 +2866,6 @@ Do not install this addon if you are using a build.
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
-
-
-
-
-
-<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.1" provider-name="notoco">
-		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
-			<dir>
-				<info>https://raw.githubusercontent.com/notoco/univ/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/notoco/univ/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/notoco/univ/raw/master/zip</datadir>
-			</dir>
-			<dir>
-				<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
-				<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Notoco Univ Repo</summary>
-			<description>Prywatne repozytorium notoco</description>
-			<platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
-
 
 
 
@@ -4450,24 +4406,7 @@ provider-name="SPA">
 
 
 
-<addon id="repository.ptom" name="PTOM Repo" version="1.0.0" provider-name="ptom">
-	<extension point="xbmc.addon.repository" name="PTOM Repo">
-        <dir>
-            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-        </dir>
-		<info compressed="false">http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml</info>
-		<checksum>http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.githubusercontent.com/ptom98/PTOM/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>It's the PTOM Repo \o/</summary>
-		<description>This Repo consists of numerous addons for Kodi created by ptom.</description>
-		<disclaimer>The owner and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
+
 
 
 
@@ -4502,58 +4441,6 @@ provider-name="SPA">
 
 
 
-
-<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.8" provider-name="supremacy">
-	<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
-		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-	</dir>
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-    </dir>
-		<info compressed="false">http://2supremacy.uk/addons/addon.xml</info>
-		<checksum>http://2supremacy.uk/addons/addons.xml.md5</checksum>
-		<datadir zip="true">http://2supremacy.uk/addons/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>video addon for supremacy</summary>
-		<description>Latest Addon Updates For Supremacy Repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-
-
-
-<addon id="repository.xbmcadult" name="XBMC-Adult Addons" version="1.0.7" provider-name="xbmc-adult">
-	<extension point="xbmc.addon.repository" name="XBMC Adult Addons">
-		<info compressed="false">https://raw.githubusercontent.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/xbmc-adult/xbmc-adult/ghmaster</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>XBMC Addons for Adults Only</summary>
-		<description>This repository contains addons that are for adults only. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-
-
 <addon id="repository.xbmc-pl-tv" name="xbmc-pl-tv Addons" version="1.0.2" provider-name="smuto, sd-xbmc, xbmc-pl-tv">
 	<extension point="xbmc.addon.repository" name="xbmc-pl-tv Addons">
 		<info compressed="false">https://raw.githubusercontent.com/pkontek/xbmc-pl-tv/master/addons.xml</info>
@@ -4564,23 +4451,6 @@ provider-name="SPA">
 		<summary>xbmc-pl-tv Addon Repo</summary>
 		<description>Polish TV addons for XBMC Gotham</description>
 		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-
-
-<addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.1" provider-name="Vashiel">
-	<extension point="xbmc.addon.repository" name="AdultHideout Addon Repository">
-		<info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
-		<checksum>https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/Vashiel/repository.adulthideout/raw/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>AdultHideout Addon Repository</summary>
-		<description>First Try for a Adult Kodi Addon</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -4614,42 +4484,6 @@ provider-name="SPA">
 	</extension>
 </addon>
 
-
-
-
-<addon id="repository.maverickrepo" name="[COLOR lime]MaverickTV Repo[/COLOR]" version="3.8" provider-name="Maverick TV">
-<extension point="xbmc.addon.repository" name="[COLOR lime]MaverickTV Repo[/COLOR]">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
-		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/Maverick53/modrepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Maverick53/modrepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Maverick53/modrepo/master/plugins/</datadir>
-	</dir>
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-    </dir>
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-    </dir>
-
-		<info compressed="false">https://raw.githubusercontent.com/Maverick53/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Maverick53/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Maverick53/repo/master/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The MaverickTV Repository v3.8</summary>
-		<description>The MaverickTV Repository for add-on and dependencies</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 
 
 
