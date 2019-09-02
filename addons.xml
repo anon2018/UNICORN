@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-	
+<addon id="plugin.video.goldvodtv" version="5.1.0" name="GOLDVODTV" provider-name="GoldVodTV">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>GoldVOD.tv - movies, series, cabarets online</summary>
+		<summary lang="pl">GoldVOD.tv - filmy, seriale, kabarety online</summary>
+		<description>GoldVOD.tv - movies, series, cabarets online</description>
+		<description lang="pl">GoldVOD.tv - filmy, seriale, kabarety online</description>
+		<disclaimer>GoldVOD.tv - movies, series, cabarets online</disclaimer>
+		<disclaimer lang="pl">GoldVOD.tv - filmy, seriale, kabarety online</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>	
 	
 <addon id="plugin.program.TwilightSparkle" name="[COLOR red]TwilightSparkle[/COLOR]" version="1.0.1" provider-name="anon">
   <requires>
