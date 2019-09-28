@@ -4375,7 +4375,7 @@ provider-name="SPA">
 
 
 
-<addon id="script.module.ptw" name="PTW Module" version="2019.04.28.1" provider-name="PTW">
+<addon id="script.module.ptw" name="PTW Module" version="2019.04.28.2" provider-name="PTW">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
