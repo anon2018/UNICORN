@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
+<addon id="repository.unicorn" name="[B][COLOR=pink]UNICORN[/COLOR][/B] Repository" provider-name="UNICORN" version="0.0.2">
+  <extension point="xbmc.addon.repository">
+  
+	<dir>
+		<info>https://raw.githubusercontent.com/anon2018/UNICORN/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/anon2018/UNICORN/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/anon2018/UNICORN/master/zip</datadir>
+	</dir>
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/mbebe/blomqvist/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/mbebe/blomqvist/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/mbebe/blomqvist/raw/master/zips</datadir>
+    </dir>
+    <dir>
+        <info compressed="true">https://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml</info>
+        <checksum>https://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/polonium-210/repository.polonium-210/raw/master/zips</datadir>
+        <hashes>true</hashes>
+    </dir>
+    <dir>
+        <info compressed="true">http://kodiwpigulce.pl/zip/addons.xml</info>
+        <checksum>http://kodiwpigulce.pl/zip/addons.xml.md5</checksum>
+        <datadir zip="true">http://kodiwpigulce.pl/zip/</datadir>\
+    </dir>
+	<dir>
+		<info compressed="true">http://phantom-kodi.cba.pl/repo/prod/addons.xml</info>
+		<checksum>http://phantom-kodi.cba.pl/repo/prod/addons.xml.md5</checksum>
+		<datadir zip="true">http://phantom-kodi.cba.pl/repo/prod/</datadir>
+    </dir>
+	<dir>
+		<info>https://raw.githubusercontent.com/paneee/RepoFF/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/paneee/RepoFF/master/addons.xml.md5</checksum> 
+		<datadir zip="true">https://raw.githubusercontent.com/paneee/RepoFF/master/ff</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/</datadir>
+	</dir>
+	<dir>
+		<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
+		<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
+	</dir>
+	<dir>
+	<info compressed="false">http://polishteam.ru/REPO/addons.xml</info>
+		<checksum>http://polishteam.ru/REPO/addons.xml.md5</checksum>
+		<datadir zip="true">http://polishteam.ru/REPO/</datadir>
+		<datadir zip="true">https://github.com/CherryKodi/PolishTeam/tree/master/zips</datadir>
+	</dir>
+	
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Repozytorium UNICORN</summary>
+		<description lang="en">For more information visit [COLOR cyan][B]https://github.com/anon2018/UNICORN  [/B][/COLOR] site.</description>
+	<disclaimer lang="en"> repo Kodi
+</disclaimer>
+    <website></website>
+    <platform>all</platform>
+	<source>https://github.com/anon2018/UNICORN</source>
+		<email>unicorn@binarymail.ru</email>
+  </extension>
+</addon>
+	
 <addon id="repository.primaeval"
         name="primaeval's beta dev repository"
         version="0.0.2"
