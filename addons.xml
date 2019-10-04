@@ -4116,8 +4116,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 	
 	
 	
-	
-<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.55" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.74U" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -4137,7 +4136,8 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
     </extension>
-</addon>
+</addon>	
+
 
 
 
@@ -4229,8 +4229,7 @@ provider-name="primaeval">
   <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
-
-<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.09.22.3" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm" version="2019.10.03.4U" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.ptw"/>
