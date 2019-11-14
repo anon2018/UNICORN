@@ -4160,8 +4160,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 </addon>
 	
 	
-	
-<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.74U" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.83" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -4182,6 +4181,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
     </extension>
 </addon>	
+	
 
 
 
@@ -4904,7 +4904,7 @@ provider-name="">
 
 
 <addon id="plugin.video.strefadb"
-version="2019.04.28.0"
+version="2019.10.17.0"
 name="StrefaDB"
 provider-name="-">
 <requires>
