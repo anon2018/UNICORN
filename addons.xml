@@ -1365,29 +1365,6 @@ Dostęp do serwisu bez polskiego IP
 
 
 
-﻿
-<addon id="repository.podpis" name="Podpis Kodi Add-ons Repository" version="1.4.2" provider-name="Podpis">
-    <extension point="xbmc.addon.repository" name="Podpis Kodi Add-ons Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/podpis/kodi/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/podpis/kodi/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/podpis/kodi/raw/master/zips</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Podpis Repository</summary>
-        <summary lang="pl">Repozytorium wtyczek Podpis</summary>
-        <summary lang="en">Addons repository</summary>
-        <description>Unofficial, private Addons repository.</description>
-        <disclaimer>Repository has non-comercial nature. Just for fun</disclaimer>
-        <disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny. Jest tworzona dla zabawy.</disclaimer>
-        <platform>all</platform>
-        <website>https://github.com/podpis/kodi/</website>
-        <email></email>
-    </extension>
-</addon>
-
-
 
 
 
@@ -1974,27 +1951,6 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
         <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
     </extension>
 </addon>
-
-
-
-
-
-<addon id="repository.netflix" name="Netflix Addon Repository" version="1.0.1" provider-name="libdev + jojo + asciidisco">
-        <extension point="xbmc.addon.repository" name="Netflix Addon Repository">
-                <info compressed="false">https://johtru.com/repo/repo.php</info>
-                <checksum>https://johtru.com/repo/repo.php?md5=true</checksum>
-                <datadir zip="true">https://johtru.com/repo/repo_files</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-                <summary>The Repository for the Kodi Netflix Addon</summary>
-                <summary lang="de">Das Repository für das Kodi Netflix Addon</summary>
-                <description>Provides the Netflix Addons fpr kodi.</description>
-                <description lang="de">Stellt das Kodi Netflix Addon bereit</description>
-                <disclaimer>Some parts of this Repository may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-                <platform>all</platform>
-        </extension>
-</addon>
-
 
 
 
@@ -4563,22 +4519,6 @@ provider-name="SPA">
 
 
 
-    <addon id="repository.Firestickplusman" name="Firestickplusman Addons" version="7.0" provider-name="Firestickplusman">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Firestickplusman Addons">
-            <info compressed="false">http://fspmkodi.com/_repo/addons.xml</info>
-            <checksum>http://fspmkodi.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://fspmkodi.com/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Firestickplusman addon repo</summary>
-            <description>Firestickplusman addon repo to in the best and update addons from Firestickplusman.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
 
 
 
@@ -4616,21 +4556,6 @@ provider-name="SPA">
 
 
 
-
-
-<addon id="repository.xbmc-pl-tv" name="xbmc-pl-tv Addons" version="1.0.2" provider-name="smuto, sd-xbmc, xbmc-pl-tv">
-	<extension point="xbmc.addon.repository" name="xbmc-pl-tv Addons">
-		<info compressed="false">https://raw.githubusercontent.com/pkontek/xbmc-pl-tv/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/pkontek/xbmc-pl-tv/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/pkontek/xbmc-pl-tv/raw/master/repo</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>xbmc-pl-tv Addon Repo</summary>
-		<description>Polish TV addons for XBMC Gotham</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
 
 
 
