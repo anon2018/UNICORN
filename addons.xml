@@ -4275,7 +4275,7 @@ provider-name="primaeval">
 </addon>
 
 	
-<addon id="plugin.video.fanfilm" name="FanFilm (settings)" version="2020.02.08" provider-name="-">
+<addon id="plugin.video.fanfilm" name="FanFilm (settings)" version="2020.02.19" provider-name="-">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.ptw"/>
