@@ -4161,7 +4161,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 	
 
 	
-<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.113" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.114" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
