@@ -4223,7 +4223,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 	
 
 	
-<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.114" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="6.4.118a" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -4231,6 +4231,10 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
         <import addon="plugin.video.gdrive" optional="true" />
         <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.tzlocal"/>
+        <import addon="script.module.js2py"/>
+        <import addon="script.module.pyjsparser"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
