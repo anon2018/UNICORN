@@ -454,6 +454,16 @@ v0.12.9 (2018-04-16)
 		<checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/</datadir>
 	</dir>
+	<dir>
+	<info compressed="false">https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/fanfilm/repository.fanfilm/master/zips</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/fanfilm/repository.fanfilm/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/fanfilm/repository.fanfilm/master/zips</datadir>
+	</dir>
 	
 	<dir>
 		<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
@@ -480,6 +490,7 @@ v0.12.9 (2018-04-16)
 		<email>unicorn@binarymail.ru</email>
   </extension>
 </addon>
+
 	
 <addon id="plugin.video.goldvodtv" version="5.1.0" name="GOLDVODTV" provider-name="GoldVodTV">
 	<requires>
