@@ -4808,10 +4808,10 @@ provider-name="">
 
 
 
-<addon id="plugin.video.hbogopl" name="HBO GO Polska" version="0.7.12" provider-name="c0d34fun + Kszaq + Tomek">
+<addon id="plugin.video.hbogopl" name="HBO GO Polska" version="0.7.12a" provider-name="c0d34fun + kszaq + Tomek">
   <requires>
       <import addon="xbmc.python" version="2.25.0"/>
-      <import addon="script.module.inputstreamhelper"/>
+      <import addon="script.module.inputstreamhelper" version="0.3.3"/>
       <import addon="script.module.requests" version="2.12.4"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
