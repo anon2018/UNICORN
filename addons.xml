@@ -1991,23 +1991,20 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
 
 
 
-
-<addon id="service.subtitles.napiprojektkatalog" name="Napiprojekt Katalog" version="2.0.1" provider-name="homik">
+<addon id="service.subtitles.napiprojektkatalog" name="Napiprojekt Katalog" version="2.0.7.3" provider-name="homik i kwp">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.requests"/>
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">
-		<summary lang="en">Napiprojekt Katalog</summary>
-		<description lang="en">Search and Download subtitles from napiprojekt subtitles catalog.</description>
-		<source>https://github.com/homik/service.subtitles.napiprojektkatalog</source>
-		<language> </language>
-		<email> </email>
-		<forum> </forum>
-		<website> </website>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <summary lang="en">Napiprojekt Katalog</summary>
+        <description lang="en">Search and Download subtitles from napiprojekt subtitles catalog.</description>
+        <source>https://github.com/homik/service.subtitles.napiprojektkatalog</source>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
 </addon>
+
 
 
 
